@@ -4,11 +4,6 @@ from django.contrib import messages
 from .models import Eleccion
 from .forms import EleccionForm
 
-class EleccionListView(CreateView):
-    model = Eleccion
-    template_name = 'elecciones/eleccion_list.html'
-    context_object_name = 'elecciones'
-
 class EleccionListView(ListView):
     model = Eleccion
     template_name = 'elecciones/eleccion_list.html'

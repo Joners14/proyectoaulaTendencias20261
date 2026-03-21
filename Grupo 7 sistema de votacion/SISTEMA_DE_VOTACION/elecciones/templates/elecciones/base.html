@@ -19,6 +19,18 @@
     </div>
   </nav>
 
+  <nav class="navbar navbar-dark bg-dark mb-4">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="{% url 'eleccion-list' %}">
+      🗳️ Sistema de Votación
+    </a>
+    <div class="d-flex gap-2">
+      <a href="{% url 'candidato-list' %}" class="btn btn-outline-light btn-sm">👤 Candidatos</a>
+      <a href="{% url 'eleccion-create' %}" class="btn btn-success btn-sm">+ Nueva Elección</a>
+    </div>
+  </div>
+</nav>
+
   <div class="container">
     {% for message in messages %}
       <div class="alert alert-success alert-dismissible fade show">
