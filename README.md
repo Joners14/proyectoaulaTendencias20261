@@ -23,15 +23,7 @@ Profe, este es nuestro sistema de votación. Aquí adjuntamos todo lo solicitado
 
 ## Endpoints Probados
 
-*Evidencia de que los endpoints funcionan. Puedes agregar capturas de Postman, Swagger o Insomnia probando las rutas principales.*
-
-### Ejemplos de Endpoints Principales:
-- `POST /api/usuarios/login/` - Autenticación y obtención de Token.
-- `GET /api/candidatos/` - Listado de candidatos disponibles.
-- `POST /api/votos/` - Registro de un voto.
-- `GET /api/auditoria/` - Historial de acciones y auditoría.
-
-*Coloca aquí tus capturas de Postman probando estos endpoints:*
+Se adjuntan pantallazos de las pruebas realizadas en Postman, donde todas nos retornan código 200 (o 201 de éxito), por lo que podemos confirmar que los endpoints están funcionando correctamente:
 - ![Prueba Login](./imagenes/Captura%20de%20pantalla%202026-05-29%20052932.png)
 - ![Prueba GET Elecciones](./imagenes/Captura%20de%20pantalla%202026-05-29%20053322.png)
 - ![Prueba GET Elecciones 2](./imagenes/Captura%20de%20pantalla%202026-05-29%20053626.png)
