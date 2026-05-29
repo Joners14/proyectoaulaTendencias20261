@@ -1,8 +1,8 @@
 # Sistema de Votación
 
-Este es el repositorio oficial del Sistema de Votación. Consta de un backend desarrollado en Django REST Framework y un frontend desarrollado en React (Vite).
+Profe, este es nuestro sistema de votación. Aquí adjuntamos todo lo solicitado en el entregable 7.
 
-## 📸 Capturas
+## Capturas
 
 *A continuación se presentan pantallas del sistema en funcionamiento:*
 
@@ -21,7 +21,7 @@ Este es el repositorio oficial del Sistema de Votación. Consta de un backend de
 - **Panel Administrativo - Auditoría Electoral:**
   ![Auditoria](./docs/screenshots/auditoria.png)
 
-## 🔌 Endpoints Probados
+## Endpoints Probados
 
 *Evidencia de que los endpoints funcionan. Puedes agregar capturas de Postman, Swagger o Insomnia probando las rutas principales.*
 
@@ -38,7 +38,7 @@ Este es el repositorio oficial del Sistema de Votación. Consta de un backend de
 - ![Prueba POST Elecciones](./imagenes/Captura%20de%20pantalla%202026-05-29%20054505.png)
 - ![Prueba Error Candidato](./imagenes/Captura%20de%20pantalla%202026-05-29%20054856.png)
 
-## 🚀 Pasos de Ejecución
+## Pasos de Ejecución
 
 Para correr este proyecto en tu entorno local, necesitas tener instalados **Python** y **Node.js**. Sigue estos pasos:
 
@@ -77,7 +77,7 @@ npm run dev
 ```
 *(El frontend quedará corriendo en la ruta que te indique la terminal, generalmente `http://localhost:5173`)*
 
-## 🔐 Credenciales de Prueba
+## Credenciales de Prueba
 
 Utiliza estas credenciales de ejemplo para ingresar al sistema y probar sus funcionalidades.
 
