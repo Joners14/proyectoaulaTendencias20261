@@ -30,48 +30,48 @@ Se adjuntan pantallazos de las pruebas realizadas en Postman, donde todas nos re
 - ![Prueba POST Elecciones](./imagenes/Captura%20de%20pantalla%202026-05-29%20054505.png)
 - ![Prueba Error Candidato](./imagenes/Captura%20de%20pantalla%202026-05-29%20054856.png)
 
-## Pasos de Ejecución
+## ¿Cómo correr el proyecto, profe?
 
-Para correr este proyecto en tu entorno local, necesitas tener instalados **Python** y **Node.js**. Sigue estos pasos:
+Profe, para poder revisar el proyecto en su compu, va a necesitar tener instalado **Python** y **Node.js**. Aquí le dejamos los pasitos rápidos:
 
-### 1. Clonar el repositorio
+### 1. Bajar el código
 ```bash
 git clone https://github.com/Joners14/proyectoaulaTendencias20261.git
 cd proyectoaulaTendencias20261
 ```
 
-### 2. Levantar el Backend (Django)
-Abre una terminal en la carpeta principal del proyecto:
+### 2. Prender el Backend (nuestra API en Django)
+Abra una terminal ahí en la carpeta y ejecute esto para instalar lo de Python y levantar el server:
 ```bash
 cd sistemVotacion
 
-# Instalar las dependencias de Python
+# Instalamos las librerías
 pip install -r requirements.txt
 
-# Aplicar las migraciones a la base de datos (crea las tablas)
+# Preparamos la base de datos
 python manage.py migrate
 
-# Iniciar el servidor backend 
+# Prendemos el servidor
 python manage.py runserver
 ```
-*(El backend quedará corriendo en `http://localhost:8000`)*
+*(Con esto el backend ya queda funcionando en `http://localhost:8000`)*
 
-### 3. Levantar el Frontend (React / Vite)
-Abre una **nueva terminal** en la carpeta principal del proyecto:
+### 3. Prender el Frontend (las pantallas en React)
+Ahora abra **otra terminal** distinta, también en la carpeta principal, y corra esto:
 ```bash
 cd frontend
 
-# Instalar dependencias de Node
+# Instalamos los paquetes de Node
 npm install
 
-# Correr el servidor de desarrollo del frontend
+# Levantamos la vista
 npm run dev
 ```
-*(El frontend quedará corriendo en la ruta que te indique la terminal, generalmente `http://localhost:5173`)*
+*(El frontend le va a cargar normalmente en `http://localhost:5173` o el puerto que le salga ahí)*
 
-## Credenciales de Prueba
+## Datos para que pruebe el sistema
 
-Utiliza estas credenciales de ejemplo para ingresar al sistema y probar sus funcionalidades.
+Le dejamos un usuario administrador ya listo para que pueda entrar y probar todo rápido sin tener que registrarse:
 
 | Rol | Usuario / Email | Contraseña |
 |---|---|---|
