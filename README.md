@@ -76,3 +76,12 @@ Le dejamos un usuario administrador ya listo para que pueda entrar y probar todo
 | Rol | Usuario / Email | Contraseña |
 |---|---|---|
 | **Administrador** | `admin` | `admin` |
+
+## Enlaces de Producción (Proyecto Desplegado)
+
+Profe, por si prefiere no correrlo localmente, también le dejamos el proyecto ya subido a internet para que lo revise directamente:
+
+- **Frontend (Interfaz):** [https://django-front-gules.vercel.app/login](https://django-front-gules.vercel.app/login)
+- **Backend (API / Panel Admin):** [https://django-bak.vercel.app/admin/login/?next=/admin/](https://django-bak.vercel.app/admin/login/?next=/admin/)
+
+*Nota: La base de datos que estamos usando es PostgreSQL y se encuentra alojada y desplegada en un servidor VPS.*
