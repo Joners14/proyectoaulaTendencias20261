@@ -32,8 +32,11 @@ Este es el repositorio oficial del Sistema de Votación. Consta de un backend de
 - `GET /api/auditoria/` - Historial de acciones y auditoría.
 
 *Coloca aquí tus capturas de Postman probando estos endpoints:*
-- ![Prueba Login Postman](./docs/screenshots/postman-login.png)
-- ![Prueba Votos Postman](./docs/screenshots/postman-votos.png)
+- ![Prueba Login](./imagenes/Captura%20de%20pantalla%202026-05-29%20052932.png)
+- ![Prueba GET Elecciones](./imagenes/Captura%20de%20pantalla%202026-05-29%20053322.png)
+- ![Prueba GET Elecciones 2](./imagenes/Captura%20de%20pantalla%202026-05-29%20053626.png)
+- ![Prueba POST Elecciones](./imagenes/Captura%20de%20pantalla%202026-05-29%20054505.png)
+- ![Prueba Error Candidato](./imagenes/Captura%20de%20pantalla%202026-05-29%20054856.png)
 
 ## 🚀 Pasos de Ejecución
 
