@@ -80,7 +80,4 @@ Utiliza estas credenciales de ejemplo para ingresar al sistema y probar sus func
 
 | Rol | Usuario / Email | Contraseña |
 |---|---|---|
-| **Administrador** | `admin` | `admin123` |
-| **Votante de prueba** | `votante1` | `password123` |
-
-*(Nota: Ajusta estas credenciales con los usuarios que realmente tengas configurados en tu base de datos de prueba).*
+| **Administrador** | `admin` | `admin` |
