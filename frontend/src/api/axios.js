@@ -5,7 +5,7 @@ revisa si hay tokens guardados y los agrega automaticamente al header
 asi no hay que mandarlo manualmente*/
 
 const api = axios.create({
-  baseURL: 'http://localhost:8080/api/',
+  baseURL: 'http://localhost:8000/api/',
 })
 
 api.interceptors.request.use((config) => {

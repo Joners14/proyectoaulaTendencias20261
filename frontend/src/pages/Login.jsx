@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate, Link, useLocation } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import api from '../api/axios'
 import styles from './Login.module.css'
 
@@ -9,8 +9,6 @@ export default function Login() {
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const navigate = useNavigate()
-  const location = useLocation()
-  const mensajeExito = location.state?.mensaje
 
   const handleLogin = async (e) => {
     e.preventDefault()
@@ -49,7 +47,6 @@ export default function Login() {
           <p>Ingresa tus credenciales para continuar</p>
         </div>
 
-        {mensajeExito && <div className={styles.exito}>{mensajeExito}</div>}
         {error && <div className={styles.error}>{error}</div>}
 
         <form onSubmit={handleLogin}>
@@ -75,14 +72,14 @@ export default function Login() {
               required
             />
           </div>
-          <button className={styles.btnLogin} type="submit" disabled={loading}>
+          <button
+            className={styles.btnLogin}
+            type="submit"
+            disabled={loading}
+          >
             {loading ? 'Ingresando...' : 'Ingresar'}
           </button>
         </form>
-
-        <div className={styles.link}>
-          ¿No tienes cuenta? <Link to="/register">Regístrate aquí</Link>
-        </div>
       </div>
     </div>
   )
